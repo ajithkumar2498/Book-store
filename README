@@ -1,0 +1,135 @@
+Bookstore REST API
+A simple RESTful API built with Node.js and Express for managing books, users, and authentication.
+Data is stored in local JSON files using asynchronous file operations.
+
+🚀 Features
+User registration & login with JWT authentication
+
+File-based data persistence (books.json, users.json)
+
+CRUD operations for books
+
+Only the creator of a book can update/delete it
+
+Protected routes with middleware
+
+Bonus features:
+
+Genre-based search (/books/search?genre=)
+
+Pagination (/books?page=1&limit=10)
+
+📦 Setup Instructions
+1. Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/ajithkumar2498/Book-store.git
+cd bookstore-api
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Run the app in development mode
+bash
+Copy
+Edit
+npm run dev
+The server runs by default on http://localhost:8000
+
+🔐 Environment Setup (Optional)
+You can create a .env file for the JWT secret:
+
+ini
+Copy
+Edit
+JWT_SECRET
+Then load it using the dotenv package (optional enhancement).
+
+🔍 How to Test Endpoints
+You can use Postman or curl.
+
+🔐 Authentication
+Register
+http
+Copy
+Edit
+POST /api/users/register
+json
+Copy
+Edit
+{
+  "email": "user@example.com",
+  "name":"<userName>"
+  "password": "123456"
+}
+Login
+http
+Copy
+Edit
+POST /api/users/login
+json
+Copy
+Edit
+{
+  "email": "user@example.com",
+  "password": "123456"
+}
+Response:
+
+json
+Copy
+Edit
+{
+  "token": "<your-jwt-token>"
+}
+Use the returned token in all /books requests:
+
+makefile
+Copy
+Edit
+Authorization: Bearer <your-token>
+
+Book Endpoints
+Method	Route	Description
+GET	/api/books	Get paginated list of books
+GET	/api/books/search?genre=x	Filter books by genre
+GET	/api/books/:id	Get a book by ID
+POST	/api/books/add-book	Add a new book
+PUT	/api/books/update-book/:id	Update a book (only by owner)
+DELETE	/api/books/delete-book/:id	Delete a book (only by owner)
+
+Sample Book Schema
+json
+Copy
+Edit
+{
+  "id": "uuid",
+  "title": "Book Title",
+  "author": "Author Name",
+  "genre": "Genre",
+  "publishedYear": 2023,
+  "userId": "id of creator"
+}
+
+
+Deployed Link: https://book-store-crzl.onrender.com/
+
+📁 File Structure
+pgsql
+Copy
+Edit
+├── controllers/
+├── routes/
+├── middlewares/
+├── utils/
+├── data/
+│   ├── books.json
+│   └── users.json
+├── app.js
+└── README.md
+
+🧑‍💻 Author
+Ajithkumar T
+Full Stack Developer 
