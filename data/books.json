@@ -1,0 +1,98 @@
+[
+  {
+    "id": "562bf4c9-f1b1-4216-a946-9c3f5b66f69d",
+    "title": "the science of self discipline",
+    "genre": "personal growth",
+    "author": "peter hollins",
+    "publishedYear": 2024,
+    "userId": "79e8b605-70e0-4970-9b89-d3dd85220691"
+  },
+  {
+    "id": "1c22e125-913a-4d97-bda8-f463107d30d3",
+    "title": "harry potter 2",
+    "genre": "story",
+    "author": "JK Rowling",
+    "publishedYear": 1998,
+    "userId": "79e8b605-70e0-4970-9b89-d3dd85220691"
+  },
+  {
+    "id": "78f58bae-93fe-4666-81fa-2f976144db45",
+    "title": "harry potter 3",
+    "genre": "story",
+    "author": "JK Rowling",
+    "publishedYear": 1999,
+    "userId": "e36f35dd-ca6c-4141-9354-6ae258203b8a"
+  },
+  {
+    "id": "bf5e93a1-8ee3-4247-83e7-cb4c66b17951",
+    "title": "harry potter 4",
+    "genre": "story",
+    "author": "JK Rowling",
+    "publishedYear": 1999,
+    "userId": "e36f35dd-ca6c-4141-9354-6ae258203b8a"
+  },
+  {
+    "id": "eba94b71-1835-4bf8-8820-b8bdc22d6393",
+    "title": "how to win and influence people",
+    "genre": "personal learning",
+    "author": "dale carnegie",
+    "publishedYear": 2008,
+    "userId": "e36f35dd-ca6c-4141-9354-6ae258203b8a"
+  },
+  {
+    "id": "87d2102f-031a-4d26-a42c-e1e082e6ac3b",
+    "title": "the psychology of money",
+    "genre": "finance growth",
+    "author": "dale carnegie",
+    "publishedYear": 2008,
+    "userId": "e36f35dd-ca6c-4141-9354-6ae258203b8a"
+  },
+  {
+    "id": "a4c9b45f-a4f3-44db-acec-d7556b6e2f94",
+    "title": "C Programming language",
+    "genre": "programming",
+    "author": "denis M Ritchie",
+    "publishedYear": 2003,
+    "userId": "e36f35dd-ca6c-4141-9354-6ae258203b8a"
+  },
+  {
+    "id": "fa273466-e04a-4d82-86c2-3365a5a60216",
+    "title": "C++ Programming language",
+    "genre": "programming",
+    "author": "Ridhard F Gilberg",
+    "publishedYear": 2004,
+    "userId": "e36f35dd-ca6c-4141-9354-6ae258203b8a"
+  },
+  {
+    "id": "2dad905f-1f8a-4f9e-a5a1-0ec5836d4804",
+    "title": "the science of self discipline",
+    "genre": "personal growth",
+    "author": "peter hollins",
+    "publishedYear": 2012,
+    "userId": "79e8b605-70e0-4970-9b89-d3dd85220691"
+  },
+  {
+    "id": "97b334f5-551b-44c3-aad5-22deebe272a2",
+    "title": "the diary of ceo",
+    "genre": "business",
+    "author": "steve bartlett",
+    "publishedYear": 2018,
+    "userId": "79e8b605-70e0-4970-9b89-d3dd85220691"
+  },
+  {
+    "id": "5d2c8488-aab7-43b5-8ebb-4ea25c1f2678",
+    "title": "how to grow your small business",
+    "genre": "business",
+    "author": "donald miller",
+    "publishedYear": 2016,
+    "userId": "79e8b605-70e0-4970-9b89-d3dd85220691"
+  },
+  {
+    "id": "b2cd8597-b28e-4af4-94a6-94c2084e4ad6",
+    "title": "harry potter 2",
+    "genre": "story",
+    "author": "JK Rowling",
+    "publishedYear": 1998,
+    "userId": "79e8b605-70e0-4970-9b89-d3dd85220691"
+  }
+]
